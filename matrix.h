@@ -1,0 +1,19 @@
+#ifndef matrix_H
+#define matrix_H
+
+using namespace std;
+
+class Matrix
+{
+
+private:
+	int rows_, cols_;
+	double **values;
+public:
+	Matrix(int rows, int cols);
+	Matrix(double** v, int rows, int cols);
+	Matrix add(Matrix m);
+	Matrix product(Matrix m);
+
+
+#endif

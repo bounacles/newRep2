@@ -1,6 +1,8 @@
 #ifndef matrix_H
 #define matrix_H
 
+#include<string>
+
 using namespace std;
 
 class Matrix
@@ -14,6 +16,7 @@ public:
 	Matrix(double** v, int rows, int cols);
 	Matrix add(Matrix m);
 	Matrix product(Matrix m);
+	string toString();
 
 
 #endif

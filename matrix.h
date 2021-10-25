@@ -15,6 +15,7 @@ public:
 	Matrix(int rows, int cols);
 	Matrix(double** v, int rows, int cols);
 	Matrix add(Matrix m);
+	Matrix asign(double v, int row, int col);
 	Matrix product(Matrix m);
 	string toString();
 
